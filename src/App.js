@@ -2,13 +2,13 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  console.log(process.env.PASSWORD)
+  console.log(process.env.REACT_APP_PASSWORD)
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          HAHAHAA THIS IS THE PW {process.env.PASSWORD}       </p>
+          HAHAHAA THIS IS THE PW {process.env.REACT_APP_PASSWORD}       </p>
         <a
           className="App-link"
           href="https://reactjs.org"
