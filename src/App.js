@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          HAHAHAA        </p>
+          HAHAHAA THIS IS THE PW {process.env.PASSWORD}       </p>
         <a
           className="App-link"
           href="https://reactjs.org"
